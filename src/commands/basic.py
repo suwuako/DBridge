@@ -47,7 +47,7 @@ class basic(commands.Cog):
 
         if command in commands:
             if "{args}" in commands[command]:
-                arguments = await lib.respond(message, "Enter argument you would like to pass)", self.bot)
+                arguments = await lib.respond(message, "Enter argument you would like to pass (timeout 60s)", self.bot)
 
             output = await run_as_async(commands[command], arguments)
             await message.send(f"```{output.read()}```")
