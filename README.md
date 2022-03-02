@@ -14,6 +14,10 @@ A quick and painless discord bot to run shell commands on a server via discord w
 
 GPL 3.0
 
+## Dependencies
+
+- `discord.py`
+
 ## Contributors
 
 suwuako
