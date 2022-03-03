@@ -8,7 +8,7 @@ A quick and painless discord bot to run shell commands on a server via discord w
 ## Note
 - this is built with the intention of being ran on linux servers - This probably won't work windows (might work with macOS)
 - when running on a linux server, create a new account (with `useradd -m`) for the bot or use an account that doesn't have any permissions as I wouldn't trust myself to write code thats 100% secure
-- whitelisting commands is reccomended to be turned on unless you know what you're doing
+- code is extremely scuffed since I wrote the entire thing in a day, polishing is needed eventually sometime in the future
 
 ## License
 
